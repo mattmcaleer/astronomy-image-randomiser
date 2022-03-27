@@ -63,37 +63,5 @@ likedImagesNav.addEventListener('click', () => {
     page2.style.display = "block";
 })
 
-/*adding search bar to search through already liked images
-
-const imageDataTemplate = document.querySelector("[data-image-data-template]")
-const resultContainer = document.querySelector("[data-image-container]")
-const searchInput = document.querySelector("[data-search]")
-let images = []
-
-searchInput.addEventListener('input', (e) => {
-    const value = e.target.value.toLowerCase()
-    console.log(value)
-    console.log(images)
-    images.forEach(image => {
-        const isVisible = image.title.toLowerCase().includes(value)
-        image.element.classList.toggle("hide", !isVisible)
-    })
-})
-
-fetch('https://api.nasa.gov/planetary/apod?count=3&api_key=o7gxI9H9bjgd1MP2kQxRy7xiS9VsT7009UsQ6809')
-    .then(response => response.json())
-    .then(data => {
-        images = data.map(image => {
-            const card = imageDataTemplate.content.cloneNode(true).children[0]
-            const header = card.querySelector("[data-header-data]")
-            const body = card.querySelector("[data-body-data]")
-            header.textContent = image.title
-            header.innerHTML = `<img src=${image.hdurl} class="thumbnail"></img><h3>${image.title}</h3>`
-            body.textContent = image.explanation
-            resultContainer.append(card)
-            return { title: image.title, description: image.explanation, element: card }
-        })
-    })
-*/
 
 

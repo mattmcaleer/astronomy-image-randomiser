@@ -1,5 +1,5 @@
 div#imageContainer {
-  display: inline-block;
+    display: inline-block;
 }
 
 h1 {
@@ -41,12 +41,12 @@ button:hover {
 }
 
 img {
-  height: 550px;
-  width: 750px;
-  object-fit: contain;
-  margin: 0;
-  border: 5px solid whitesmoke;
-  background-color: whitesmoke;
+    height: 550px;
+    width: 750px;
+    object-fit: contain;
+    margin: 0;
+    border: 5px solid whitesmoke;
+    background-color: whitesmoke;
 }
 
 body {
@@ -68,23 +68,23 @@ main {
 }
 
 footer {
-  position: relative;
-  width: 100%;
-  padding-top: 20px;
-  color: whitesmoke;
-  font-size: 8px;
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-size: 8px;
 }
 
 #modal {
-  display: none; /* Hidden by default */
-  position: absolute; /* Stay in place */
-  top: 30%;
-  left: 25%;
-  width: 50%;
-  z-index: 1; /* Sit on top */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
-  font-size: 10px;
+    display: none; 
+    position: absolute; 
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    z-index: 1; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    font-size: 10px;
     color: whitesmoke;
 }
 
